@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    width: 100vw;
+    text-align: center;
+    margin-top: 10vh;
+    color:darkgoldenrod;
+}
+
+.button{
+    width: 100px;
+    height: 25px;
+    margin: 3vh auto;
+    background-color:darksalmon;
+    border: 1px solid black;
+    border-radius: 10px;
+    color:white;
+    font-size: 10px;
+    text-align:center;
+    padding-top:5px;
+    transition: all 1s ease;
+}
+.body{
+    margin 0, auto;
+}
+
+.button:hover{
+    transform: scale(1.1);
+}
+.main-container{
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    margin: 5vh auto;
+    
+}
+
+.child-div{
+    border: 1px solid black; 
+    border-radius:5px;
+
+}
+
